@@ -8,10 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        kalam: ['Kalam', 'cursive'],
+      },
+      colors: {
+        customGreen: 'rgba(44, 185, 108, 1)',
+        customDarkGreen: 'rgba(1, 153, 102, 1)',
+
       },
     },
   },

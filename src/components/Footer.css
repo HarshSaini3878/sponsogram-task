@@ -1,0 +1,24 @@
+@media (max-width: 800px) {
+    .foot {
+      flex-direction: column !important;
+      gap: 20px !important;
+    }
+  
+    .address, .pages, .goToTop {
+      width: 100% !important;
+      text-align: center !important;
+    }
+  
+    .address .text-2xl {
+      font-size: 1.25rem !important; /* Adjusted font size for smaller screens */
+    }
+  
+    .pages ul li {
+      font-size: 0.875rem !important; /* Adjusted font size for smaller screens */
+    }
+  
+    .pages .text-center {
+      font-size: 0.75rem !important; /* Adjusted font size for smaller screens */
+    }
+  }
+  
