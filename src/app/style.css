@@ -71,6 +71,9 @@
 .cards{
     background-color: rgba(84, 189, 149, 0.4);
 }
+.CardCarousel{
+    display: hidden ;
+  }
 @media (max-width: 800px){
    .section1{
     flex-direction: column;
@@ -113,10 +116,88 @@
     grid-column: 2;
     display: block !important;
 }
-.section3{
-    display: hidden;
+/* styles.css */
+.section3 {
+    display: none !important;
+  }
+  
+  .section3-new {
+    display: flex !important;
+    height: 120vh !important;
+  }
+  .section4{
+height: 120vh !important;
+padding-top: 10%;
+  }
+  .cards{
+    display: none !important;
+  }
+  .CardCarousel{
+    display: block !important;
+  }
+  .section5-inner{
+flex-direction: column !important;
+height: 100% !important;
+  }
+  .section5{
+    height: 120vh !important;
+  }
+  .Img-section5{
+    height: 40% !important;
+  }
+  .content5{
+    width: 100% !important;
+    text-align: center !important;
+    justify-content: space-around !important;
+  }
+  .button5{
+    justify-content: center !important;
+  }
 }
-.section3-new{
-    display: flex;
+
+@media (max-width: 470px){
+    .content1-1-1{
+        font-size: 3.3rem !important ;
+    }
+    .content1{
+        display: grid;
+        grid-template-columns: 4% 89% 3% ;
+        
+    }
+    .content1-1-2{
+        font-size: 1.4rem !important ;
+    }
+    .buttons1{
+   
+        left:10%;
+        }
+        .content2-1{
+            font-size: 3rem !important ;
+        }
+        .section-2{
+            display: grid;
+            grid-template-columns: 2% 96% 2%;
+            grid-template-rows: 4% 68% 20% 4%;
+            height: 120vh !important;
+        }
+        .content2-2{
+            font-size: 1.4rem !important ;
+        }
 }
+
+@media (max-width: 390px){
+    .content1-1-1{
+        font-size: 3.1rem !important ;
+    }
+    .content1{
+        display: grid;
+        grid-template-columns: 2% 97% 1% ;
+        
+    }
+    .content5-1{
+        font-size: 3rem !important ;
+    }
+    .content4-1{
+        font-size: 3rem !important ;
+    }
 }

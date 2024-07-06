@@ -6,6 +6,7 @@ import { Box } from "@chakra-ui/react";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import Carousel from '@/components/Carousel'
 import Carousel2 from '@/components/Carousel2'
+import Carousel3 from '@/components/Carousel3'
 import "./style.css";
 import Footer from "@/components/Footer";
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
         <div className="w-screen h-screen section1 flex">
           <div className="content1 w-[55%]    ">
             <div className="content1-1 flex flex-col items-start justify-evenly ">
-              <div className=" text-blue-950 text-6xl font-bold">
+              <div className=" text-blue-950 text-6xl content1-1-1 font-bold">
                 Lets{" "}
                 <span className="text-green-400">
                   {" "}
@@ -24,7 +25,7 @@ export default function Home() {
                 </span>{" "}
                 with Sponsogram!
               </div>
-              <div className=" text-3xl font-medium ">
+              <div className=" text-3xl content1-1-2 font-medium ">
                 Sponsogram connect provides an effective and powerful way to
                 connect sponsors with diverse sponsorship opportunities.
               </div>
@@ -75,10 +76,10 @@ export default function Home() {
         <div className="w-screen h-screen section-2 ">
           <div className="content2 ">
             <div className="h-[40%] flex justify-around  flex-col ">
-              <div className="text-6xl text-blue-950 font-extrabold ">
+              <div className=" content2-1 text-6xl text-blue-950 font-extrabold ">
                 How it works?
               </div>
-              <div className="text-3xl ">
+              <div className=" content2-2 text-3xl ">
                 Sponsogram connect provides an effective and powerful way to
                 connect sponsors with diverse sponsorship opportunities.
               </div>
@@ -222,7 +223,7 @@ export default function Home() {
         <div className=" text-4xl font-bold text-blue-950">
             What do you get?
           </div>
-          <div className=" text-xl">
+          <div className=" text-xl text-center">
             We offer a variety of interesting features that you can help
             increase yor productivity at work and manage your project easily.
           </div>
@@ -263,8 +264,8 @@ export default function Home() {
               </div>
         </div>
 
-        <div className="w-screen h-screen    flex flex-col items-center justify-center">
-          <div className="h-[25%] w-[50%] font-bold text-center text-6xl flex items-center justify-center text-blue-950">
+        <div className="w-screen h-screen section4   flex flex-col items-center justify-center">
+          <div className="h-[25%] w-[50%] font-bold text-center text-6xl flex items-center justify-center content4-1 text-blue-950">
             <div>
               Connecting Sponsors with{" "}
               <span className="text-customGreen font-kalam curved-underline">
@@ -290,6 +291,9 @@ export default function Home() {
                   layout="intrinsic"
                 />
               </div>
+             
+          <Carousel3 />
+          
               <div className="cards absolute top-[-2rem] left-[5%] transform -translate-x-1/2 w-48 h-60 rounded-md text-black flex items-center justify-center">
                 <div className="w-[85%] h-[70%] font-semibold">
                   Our platform provides an easy and effective way for sponsors
@@ -310,9 +314,10 @@ export default function Home() {
               </div>
             </div>
           </div>
+          
         </div>
-        <div className="w-screen h-screen flex items-center justify-center">
-          <div className="w-[85%] h-[70%] flex items-center justify-center">
+        <div className="w-screen section5 h-screen flex items-center justify-center">
+          <div className="w-[85%] h-[70%] flex items-center section5-inner justify-center">
             <div className="Img-section5  w-[40%] h-[100%]">
             <Image
                 src="/images/section5.png"
@@ -323,11 +328,11 @@ export default function Home() {
               />
             </div>
             <div className="content5  w-[60%]  h-[100%] text-right flex items-center flex-col justify-between">
-              <div className="text-6xl font-bold text-blue-950">
+              <div className=" content5-1 text-6xl font-bold text-blue-950">
               Get ready <br />to <span className="font-kalam text-customGreen">Maximize</span> you Sponsorship opportunities <br />
                with Sponsogram
               </div>
-              <div className="flex w-full justify-end">
+              <div className=" button5 flex w-full justify-end">
       <div className="relative flex items-center">
         <Button
           width="240.96px"

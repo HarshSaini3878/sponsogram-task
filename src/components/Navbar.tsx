@@ -24,6 +24,7 @@ import {
 } from '@chakra-ui/icons'
 import { InputGroup, InputLeftElement, Input, InputRightElement } from '@chakra-ui/react';
 import { PhoneIcon, SearchIcon } from '@chakra-ui/icons';
+import { useEffect } from 'react';
 
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure()
