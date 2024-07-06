@@ -113,4 +113,10 @@
     grid-column: 2;
     display: block !important;
 }
+.section3{
+    display: hidden;
+}
+.section3-new{
+    display: flex;
+}
 }

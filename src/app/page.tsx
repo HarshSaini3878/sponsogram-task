@@ -5,6 +5,7 @@ import { Button } from "@chakra-ui/react";
 import { Box } from "@chakra-ui/react";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import Carousel from '@/components/Carousel'
+import Carousel2 from '@/components/Carousel2'
 import "./style.css";
 import Footer from "@/components/Footer";
 export default function Home() {
@@ -217,6 +218,51 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="section3-new hidden  flex-col items-center justify-around">
+        <div className=" text-4xl font-bold text-blue-950">
+            What do you get?
+          </div>
+          <div className=" text-xl">
+            We offer a variety of interesting features that you can help
+            increase yor productivity at work and manage your project easily.
+          </div>
+          <div className="">
+            <Carousel2/>
+          </div>
+          <div className="flex relative ">
+                <Button
+                  width="240.96px"
+                  height="70px"
+                  borderRadius="50px"
+                  bgGradient="linear(to-r, rgba(7, 146, 88, 1), rgba(30, 76, 110, 1))"
+                  color="white"
+                  _hover={{
+                    bgGradient:
+                      "linear(to-r, rgba(7, 146, 88, 0.8), rgba(30, 76, 110, 0.8))",
+                  }}
+                >
+                  Get Started
+                </Button>
+                <Box
+                  width="70px"
+                  height="70px"
+                  bgColor={"rgba(251, 249, 241, 1)"}
+                  borderRadius="50%"
+                  display="flex"
+                  alignItems="center"
+                  justifyContent="center"
+                  color="black"
+                  fontWeight="bold"
+                  className="transform -rotate-45 button-box-1 "
+                  zIndex={2}
+                  position="absolute"
+                  left="calc(100% - 35px)" // Adjusted position to align with the right edge of the button
+                >
+                  <ArrowForwardIcon boxSize={10} />
+                </Box>
+              </div>
+        </div>
+
         <div className="w-screen h-screen    flex flex-col items-center justify-center">
           <div className="h-[25%] w-[50%] font-bold text-center text-6xl flex items-center justify-center text-blue-950">
             <div>

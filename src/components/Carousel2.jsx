@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
 import 'swiper/css';
 
-const Carousel = () => {
+const Footer = () => {
   return (
     <Swiper
       spaceBetween={50}
@@ -43,24 +43,24 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default Footer;
 
 const data = [
     {
       imageUrl: "/images/Discover.png",
-      mainHeading: "Discovery",
+      mainHeading: "Data Analytics",
       subHeading:
-        "We meet with you to learn about your business, your goals, and your target audience.",
+        "Here you can handle projects together with team virtually",
     },
     {
       imageUrl: "/images/Strategy.png",
-      mainHeading: "Strategy",
+      mainHeading: "Security and Privacy",
       subHeading:
-        "We develop a customized marketing strategy that is based on your unique needs and goals.",
+        "No nedd to worry about storage because we provide storage up to 2 TB",
     },
     {
       imageUrl: "/images/execute.png",
-      mainHeading: "Execution",
+      mainHeading: "Personal Assistance",
       subHeading:
         "We execute our strategy using the latest digital marketing tools and techniques.",
     },
@@ -68,7 +68,7 @@ const data = [
       imageUrl: "/images/measure.png",
       mainHeading: "Measurement",
       subHeading:
-        "We track the results of our campaigns so that we can make adjustments as needed.",
+        "We always provide useful informatin to make it easier for you every day",
     },
   ];
   
